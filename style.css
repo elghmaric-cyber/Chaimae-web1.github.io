@@ -59,3 +59,13 @@ button.primary-btn:hover {
     background: #0097a7;
     transform: scale(1.05);
 }
+    @media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* الكارتات يهبطو تحت بعضهم */
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%; /* ياخد عرض أكبر فالتلفون */
+    }
+}
